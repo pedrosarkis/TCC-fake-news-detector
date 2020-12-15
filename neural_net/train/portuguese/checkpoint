@@ -1,0 +1,2 @@
+model_checkpoint_path: "output_portuguese"
+all_model_checkpoint_paths: "output_portuguese"

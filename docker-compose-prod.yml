@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    image: fake_news_detector_web_prod
+    build: .
+    env_file:
+      - ./config/prod/.env
+    command: sh ./config/prod/deploy.sh

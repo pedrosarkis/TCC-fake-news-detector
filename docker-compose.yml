@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  web:
+    image: fake_news_detector_web_dev
+    build: .
+    ports:
+      - "80:5000"
+    env_file:
+      - ./config/dev/.env
+    command: sh ./config/dev/deploy.sh
+    volumes:
+      - ./:/app

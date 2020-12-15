@@ -1,0 +1,10 @@
+__pycache__/
+.idea/
+*.egg-info
+static
+.git/
+.DS_Store
+poetry.lock
+pyproject.toml
+README.rst
+venv
